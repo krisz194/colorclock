@@ -74,8 +74,14 @@ weekday[6]="Szombat";
     seconds = '0' + seconds;
   }
   if (month < 10) {
-    month = '0' + month;
     month++;
+    month = '0' + month;
+    
+  }
+  
+   if (month >= 10) {
+    month++;
+    
   }
    if (day < 10) {
     day = '0' + day;
