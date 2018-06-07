@@ -38,7 +38,11 @@ html, body {
   font-family: 'Kanit', sans-serif;
   font-size: 100px;
   margin-top: -50px;
+ border-radius 5px;
+    border-color: floralwhite;
+    border-image-source: url(assets/kozmosz.jpg) no-repeat center;)
 }
+
 </style>
 </head>
 <body>
@@ -95,7 +99,7 @@ weekday[7]="Vasárnap";
   document.getElementById('clock').innerHTML = clockFace;
   document.body.style.background = hexColor;
   document.body.style.color = 'white';
-  
+    
   setTimeout(function() {
   colorClock();
 }, 1000);
